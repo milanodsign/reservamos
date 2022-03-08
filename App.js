@@ -42,7 +42,6 @@ export default function App() {
             inputDestiny,
             setInputDestiny,
             getWeather,
-            searchCity,
           }}
         />
       )}

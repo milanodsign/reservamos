@@ -23,7 +23,7 @@ const Weather = ({ setView, infoWeather, location }) => {
     "nov",
     "dic",
   ];
-  
+
   const DIAS = ["Dom", "Lun", "Mar", "Mié", "Jue", "Vie", "Sab"];
 
   const formDay = (value) => {
@@ -48,7 +48,7 @@ const Weather = ({ setView, infoWeather, location }) => {
           <Text style={styles.city}>{location[2]}</Text>
         </View>
       </View>
-      <ScrollView style={{ width: "100%" }}>
+      <ScrollView style={{ width: "100%", marginBottom: 15 }}>
         {infoWeather.daily &&
           infoWeather.daily.map((item, i) => (
             <View
